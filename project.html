@@ -1,36 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
-    <link rel="stylesheet" href="styles.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+	>
+	<title>Contact Me</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 	<header>
 		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="project.html">Projects</a></li>
-				<li><a href="contact.html">Contacts</a></li>
-				<li><a href="videoDemo.html">Video</a></li>
-				<li><a href="sitereport.html">Report</a></li>
-			</ul>
+			<div class="section__container">
+				<label for="check" class="checkbox">
+					<i class="ri-menu-line"></i>
+				</label>
+				<input type="checkbox" name="check" id="check">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="project.html">Projects</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="videodemo.html">VideoDemo</a></li>
+					<li><a href="sitereport.html">SiteReport</a></li>
+				</ul>
+			</div>
 		</nav>
 	</header>
 	<main>
-		<section>
-			<h1>Project</h1>
-			<div class="projects-grid">
-				<div class="project-item project1">Project 1</div>
-				<div class="project-item project2">Project 2</div>
-				<div class="project-item project3">Project 4</div>
-				<div class="project-item project5">Project 5</div>
-			</div>
+		<section id="project">
+			<!-- <h1>My Projects</h1>
+			<div class="project-grid">
+				<div class="project-item"><alt="Project1"><p>Project 1</p></div>
+				<div class="project-item"><alt="Project2"><p>Project 2</p></div>
+			</div> -->
+			<div class="cards">
+				<div class="card1">
+				  <img src="projectimage.png" alt="Avatar" class="image">
+				  <div class="container">
+				    <h4><b>project 1</b></h4>
+				    <p>A brief description of the project</p>
+				  </div>
+				</div>
+
+				  <div class="card2">
+				  <img src="projectimage.png" alt="Avatar" class="image">
+				  <div class="container">
+				    <h4><b>project 2</b></h4>
+				    <p>A brief description of the project</p>
+				  </div>
+				</div>
+
+				  <div class="card3">
+				  <img src="projectimage.png" alt="Avatar" class="image">
+				  <div class="container">
+				    <h4><b>project 3</b></h4>
+				    <p>A brief description of the project</p>
+				  </div>
+					</div>
+				</div>
 		</section>
 	</main>
-	<footer>
-		<p>&copy: 2024 Lakpa Diki Sherpa</p>
-	</footer>
+	<!-- <footer>
+		<p>&copy; 2024 Lakpa Diki Sherpa. All rights reserved.</p>
+	</footer> -->
 </body>
 </html>
